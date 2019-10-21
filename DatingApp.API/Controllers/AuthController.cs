@@ -28,6 +28,7 @@ namespace DatingApp.API.Controllers
             Config = config;
         }
 
+
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
