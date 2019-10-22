@@ -21,6 +21,6 @@ export class ValueComponent implements OnInit {
         this.values = response;
     }, error => {
         console.log(error);
-    }); 
+    });
   }
 }
